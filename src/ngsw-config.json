@@ -10,7 +10,8 @@
           "/index.html",
           "/*.css",
           "/*.js"
-        ]
+        ],
+        "urls": ["https://unpkg.com/@ionic/pwa-elements@1.0.2/dist/ionicpwaelements.js"]
       }
     }, {
       "name": "assets",
