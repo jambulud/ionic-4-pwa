@@ -26,10 +26,7 @@ export class HomePage {
         resultType: CameraResultType.Uri,
       });
 
-      // Change last picture shown
-      // const imageUrl = image.webPath;
       this.image = this.sanitizer.bypassSecurityTrustResourceUrl(image.webPath);
-      // this.image = imageUrl;
     } catch (e) {
       this.show('Closing camera');
     }
